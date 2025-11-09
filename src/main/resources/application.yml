@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: hexagonal
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/hexagonal
+  cloud:
+    config:
+      enabled: false
+
+busca:
+  cliente:
+    endereco:
+      url: http://localhost:8082/enderecos
+      #url: https://viacep.com.br/ws/
+
